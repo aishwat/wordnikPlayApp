@@ -1,0 +1,7 @@
+{
+  "name": "wordnikPlayApp",
+  "description": "A simple word game app using wordnik api's",
+  "repository": "https://github.com/aishwat/wordnikPlayApp",
+  "logo": "http://ionicframework.com/img/ionic-logo-blog.png",
+  "keywords": ["ionic", "wordnikPlayApp"]
+}
