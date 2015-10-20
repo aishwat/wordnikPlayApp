@@ -1,0 +1,33 @@
+<ion-view view-title="Word Game">
+    <ion-content class="padding">
+        <div ng-hide="showQuit">
+            <label class="item item-text-wrap">
+                {{definition}}
+            </label>
+            <label class="item item-text-wrap" ng-show="showHint">
+                {{hint_text}}
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="Guess the word" id="word_game">
+            </label>
+            <a class="button button-full button-balanced" ng-click="verify()">Verify</a>
+            <a class="button button-full button-calm" ng-click="hint()">Hint</a>
+            <a class="button button-full button-positive" ng-click="try_next()">Try Next</a>
+            <a class="button button-full button-assertive" ng-click="quit()">Quit</a>
+        </div>
+        <ion-list ng-if="showQuit">
+            <div ng-repeat="(key,value) in data">
+                <div class="item item-divider">
+                    {{key}}
+                </div>
+                <ion-list>
+                    <div ng-repeat="x in value">
+                        <div class="item item-text-wrap">
+                            {{x}}
+                        </div>
+                    </div>
+                </ion-list>
+            </div>
+        </ion-list>
+    </ion-content>
+</ion-view>
