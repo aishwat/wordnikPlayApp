@@ -2,8 +2,9 @@
 Hybrid app using ionic
 
 ## Install
-1. Yarn install (or npm)
-2. Yarn start
+1. yarn install (or npm)
+2. yarn start
+3. localhost:5000
 
 
 heroku : https://wordnik-play.herokuapp.com/#/tab/home
