@@ -1,8 +1,12 @@
-#wordnikPlayApp 
+# wordnikPlayApp 
 Hybrid app using ionic
 
-heroku : https://wordnik-play.herokuapp.com/#/tab/home
+## Install
+1. Yarn install (or npm)
+2. Yarn start
 
+
+heroku : https://wordnik-play.herokuapp.com/#/tab/home
 
 *powered by*
 ![alt tag](https://www.wordnik.com/img/logo-wordnik-home.png ) 
